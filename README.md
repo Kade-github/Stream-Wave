@@ -4,6 +4,9 @@ Stream Wave is a software which displays a audio wave of anything that is playin
 # Video Showcase
 https://youtu.be/SXvXNiJ0xQU
 
+# Screenshots
+![StreamWaveScreenshot](https://kadedev.software/screenshots/1z71h.png)
+
 # How?
 Step 1) Run the program, and configure your settings.json
 
