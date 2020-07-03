@@ -25,6 +25,8 @@ Step 5) Just play any song and it will pickup on it! (**Only effects your stereo
 ```
 
 Documentation:
+
+
 `textColor: Simple, just the text color. Don't make it green, becuase well. Obviously it will not show up.`
 
 
