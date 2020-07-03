@@ -10,7 +10,7 @@ Step 3) Drag it anywhere you want in your stream overlay
 
 Step 4) Use a chroma key, and key out the green.
 
-Step 4) Just play any song and it will pickup on it! (**Only effects your stereo track, including game audio**)
+Step 5) Just play any song and it will pickup on it! (**Only effects your stereo track, including game audio**)
 
 # Contributing
 PR it bby
