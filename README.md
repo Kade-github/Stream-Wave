@@ -1,6 +1,9 @@
 # Stream-Wave
 Stream Wave is a software which displays a audio wave of anything that is playing, this can then be imported into a streaming software and shown on the streamers side for a nice audio wave effect!
 
+# Video Showcase
+https://youtu.be/SXvXNiJ0xQU
+
 # How?
 Step 1) Run the program, and configure your settings.json
 
