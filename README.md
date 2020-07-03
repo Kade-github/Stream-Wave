@@ -12,5 +12,25 @@ Step 4) Use a chroma key, and key out the green.
 
 Step 5) Just play any song and it will pickup on it! (**Only effects your stereo track, including game audio**)
 
+# Default Settings
+```
+{
+  "textColor": "White",
+  "textSize": 14,
+  "bigWaves": false,
+  "showWatermark": true,
+  "textCharacter": "|",
+  "audioDetectedWarning": true
+}
+```
+
+Documentation:
+`textColor: Simple, just the text color. Don't make it green, becuase well. Obviously it will not show up.`
+`textSize: Simple, the size of the text.`
+`bigWaves: Allow for bigger audio waves to show up. (Doesn't have a size cap)`
+`showWatermark: Enable or Disable the watermark in the bottom right.`
+`textCharacter: What it uses to display the waves.`
+`audioDetectedWarning: Shows a message instead of blanking out when audio isn't detected.`
+
 # Contributing
 PR it bby
