@@ -8,6 +8,8 @@ https://youtu.be/SXvXNiJ0xQU
 ![StreamWaveScreenshot](https://kadedev.software/screenshots/1z71h.png)
 
 # How?
+Step 0) Download the program from [here](https://github.com/KadeDev/Stream-Wave/latest)
+
 Step 1) Run the program, and configure your settings.json
 
 Step 2) Open up your streaming software and then capture the program window.
