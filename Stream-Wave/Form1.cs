@@ -22,20 +22,21 @@ namespace Stream_Wave
         // Variables
         public static Settings settings;
         public static Thread th;
+        public static Thread chromaThread;
+        
         
         
         public Form1()
         {
             InitializeComponent();
+            
             // Setup settings
             settings = Settings.GetSettings(); // get settings
             textBox1.Font = new Font("Arial", settings.TextSize);
             textBox1.ForeColor = settings.TextColor;
             textBox1.ReadOnly = true;
-            textBox1.GotFocus += TextBoxGotFocus;
-            
-            HideCaret(textBox1.Handle); // hide it
-            
+            textBox1.GotFocus += TextBoxGotFocus; // Hide Caret
+
             if (!settings.ShowWatermark) // Watermark setting
                 label1.Text = "";
             
@@ -64,7 +65,9 @@ namespace Stream_Wave
                     {
                         if (settings.AudioWarning)
                             textBox1.Text = textBox1.Text.Replace("No audio detected...", "");
+                        textBox1.Suspend();
                         textBox1.Text += CalcTheAnimation(max * 100) + "\r\n";
+                        textBox1.Resume();
                     }
                     else
                         textBox1.Text = settings.AudioWarning ? "No audio detected..." : "";

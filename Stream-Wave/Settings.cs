@@ -25,14 +25,14 @@ namespace Stream_Wave
         
         [JsonProperty("audioDetectedWarning")] 
         public bool AudioWarning { get; set; }
-        
+
         // Get settings
         public static Settings GetSettings()
         {
             if (File.Exists("settings.json"))
                 return JsonConvert.DeserializeObject<Settings>(File.ReadAllText("settings.json")); // Actually get custom settings
             return new Settings
-                {TextColor = Color.White, BigWaves = false, ShowWatermark = true, TextSize = 14, TextCharacter = "|", AudioWarning = true}; // Defaults
+                {TextColor = Color.White, BigWaves = true, ShowWatermark = true, TextSize = 14, TextCharacter = "|", AudioWarning = true}; // Defaults
         }
 
         public void SaveSettings() => File.WriteAllText("settings.json", JsonConvert.SerializeObject(this, Formatting.Indented), Encoding.Default); // Save this
